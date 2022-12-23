@@ -1,0 +1,31 @@
+State1: Setting_Out
+Decision: 1
+State2: Path-1: Trusting_Advice
+State3: Path-1: Fighting_Bandits
+State4: Path-2: Continuing_On
+End of Decision
+State5: Meeting_Rebels
+Decision: 2
+State6: Path-1: Joining_Rebels
+State7: Path-1: Investigating_Cave
+State8: Path-2: Continuing_On
+End of Decision
+State9: Meeting_Helper
+State10: Entering_Portal
+Decision: 3
+State11: Path-1: Exploring_Realm
+State12: Path-1: Negotiating_With_Trolls
+State13: Path-1: Seeking_Artifact
+State14: Path-2: Returning_To_Journey
+End of Decision
+State15: Encountering_Dragon
+Decision: 4
+State16: Path-1: Defeating_Dragon
+State17: Path-1: Dragon_Defeated
+State18: Path-2: Finding_Alternative
+State19: Path-2: Sneaking_Past_Dragon
+State20: Path-2: Treasure
+End of Decision
+State21: Meeting_Fairies
+State22: Facing_Challenges
+State23: Defeating_Sorcerer

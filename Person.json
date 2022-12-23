@@ -1,0 +1,148 @@
+{
+	"Narrative": [{
+			"title": "Game Narrative",
+			"description": "A young prince sets out to rescue his kingdom from an evil sorcerer.",
+			"State": "Setting_Out"
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince trusts the advice of a friendly forest spirit and follows it.",
+			"State": "Trusting_Advice",
+			"decision": 1,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince encounters a group of bandits and fights them.",
+			"State": "Fighting_Bandits",
+			"decision": 1,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince decides to continue on without accepting a powerful weapon from a mysterious stranger.",
+			"State": "Continuing_On",
+			"decision": 1,
+			"path": 2
+		},
+		{
+			"title": "Game Narrative",
+			"description": "The prince meets a group of rebels who are fighting against the sorcerer's rule.",
+			"State": "Meeting_Rebels"
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince decides to join the rebels and help them in their fight.",
+			"State": "Joining_Rebels",
+			"decision": 2,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince comes across a mysterious cave and decides to investigate its secrets.",
+			"State": "Investigating_Cave",
+			"decision": 2,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince decides to continue on his own and not get involved in the rebels' cause.",
+			"State": "Continuing_On",
+			"decision": 2,
+			"path": 2
+		},
+		{
+			"title": "Game Narrative",
+			"description": "The prince meets a wise old man who helps him on his quest.",
+			"State": "Meeting_Helper"
+		},
+		{
+			"title": "Game Narrative",
+			"description": "The prince comes across a magical portal that transports him to a different realm.",
+			"State": "Entering_Portal"
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince decides to explore the new realm and see what he can learn.",
+			"State": "Exploring_Realm",
+			"decision": 3,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince encounters a group of trolls and decides to negotiate a peaceful resolution.",
+			"State": "Negotiating_With_Trolls",
+			"decision": 3,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince meets a group of mermaids who offer to help him find a rare and powerful magical artifact.",
+			"State": "Seeking_Artifact",
+			"decision": 3,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince decides to return to the portal and continue on his journey.",
+			"State": "Returning_To_Journey",
+			"decision": 3,
+			"path": 2
+		},
+		{
+			"title": "Game Narrative",
+			"description": "The prince encounters a powerful dragon that guards a treasure he needs to complete his quest.",
+			"State": "Encountering_Dragon"
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince decides to try and defeat the dragon and take the treasure.",
+			"State": "Defeating_Dragon",
+			"decision": 4,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince defeats the dragon and collects his treasure",
+			"State": "Dragon_Defeated",
+			"decision": 4,
+			"path": 1
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince decides to find another way to obtain the treasure without fighting the dragon.",
+			"State": "Finding_Alternative",
+			"decision": 4,
+			"path": 2
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince decides to try and sneak past the dragon and obtain the treasure without fighting it.",
+			"State": "Sneaking_Past_Dragon",
+			"decision": 4,
+			"path": 2
+		},
+		{
+			"title": "Game Branch",
+			"description": "The prince aquires the treasure and leaves quietly",
+			"State": "Treasure",
+			"decision": 4,
+			"path": 2
+		},
+		{
+			"title": "Game Narrative",
+			"description": "The prince comes across a group of fairies who offer to help him on his quest.",
+			"State": "Meeting_Fairies"
+		},
+		{
+			"title": "Game Narrative",
+			"description": "The prince faces challenges and battles as he journeys to the sorcerer's castle.",
+			"State": "Facing_Challenges"
+		},
+		{
+			"title": "Game Narrative",
+			"description": "The prince defeats the sorcerer and saves the kingdom.",
+			"State": "Defeating_Sorcerer"
+		}
+	]
+}
