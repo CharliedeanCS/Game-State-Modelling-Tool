@@ -1,0 +1,1 @@
+To run an example piece of code, place the example in the same directory where the NarrativeStateModel is found
