@@ -244,6 +244,8 @@ class StateController():
                        if line["path"] == path:
                            current_path.append(line["description"])
                            current_pathstate = line["State"]
+                           self.state = line["description"]
+                           current_line = line
                            return current_path[0]
                            break
               else:
@@ -254,6 +256,8 @@ class StateController():
                            if line["State"] == path:
                                current_path[0] = line["description"]
                                current_pathstate = line["State"]
+                               self.state = line["description"]
+                               current_line = line
                                return current_path[0]
                                break
                         break

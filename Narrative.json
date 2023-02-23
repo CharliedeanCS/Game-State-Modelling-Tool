@@ -2,8 +2,7 @@
 	"Narrative": [{
 			"title": "Game Narrative",
 			"description": "A young prince sets out to rescue his kingdom from an evil sorcerer.",
-			"State": "Setting_Out",
-			"BranchNext": 1
+			"State": "Setting_Out"
 		},
 		{
 			"title": "Game Branch",
@@ -29,8 +28,7 @@
 		{
 			"title": "Game Narrative",
 			"description": "The prince meets a group of rebels who are fighting against the sorcerer's rule.",
-			"State": "Meeting_Rebels",
-			"BranchNext": 1
+			"State": "Meeting_Rebels"
 		},
 		{
 			"title": "Game Branch",
@@ -56,14 +54,12 @@
 		{
 			"title": "Game Narrative",
 			"description": "The prince meets a wise old man who helps him on his quest.",
-			"State": "Meeting_Helper",
-			"BranchNext": 0
+			"State": "Meeting_Helper"
 		},
 		{
 			"title": "Game Narrative",
 			"description": "The prince comes across a magical portal that transports him to a different realm.",
-			"State": "Entering_Portal",
-			"BranchNext": 1
+			"State": "Entering_Portal"
 		},
 		{
 			"title": "Game Branch",
@@ -96,8 +92,7 @@
 		{
 			"title": "Game Narrative",
 			"description": "The prince encounters a powerful dragon that guards a treasure he needs to complete his quest.",
-			"State": "Encountering_Dragon",
-			"BranchNext": 1
+			"State": "Encountering_Dragon"
 		},
 		{
 			"title": "Game Branch",
@@ -137,20 +132,17 @@
 		{
 			"title": "Game Narrative",
 			"description": "The prince comes across a group of fairies who offer to help him on his quest.",
-			"State": "Meeting_Fairies",
-			"BranchNext": 0
+			"State": "Meeting_Fairies"
 		},
 		{
 			"title": "Game Narrative",
 			"description": "The prince faces challenges and battles as he journeys to the sorcerer's castle.",
-			"State": "Facing_Challenges",
-			"BranchNext": 0
+			"State": "Facing_Challenges"
 		},
 		{
 			"title": "Game Narrative",
 			"description": "The prince defeats the sorcerer and saves the kingdom.",
-			"State": "Defeating_Sorcerer",
-			"BranchNext": 0
+			"State": "Defeating_Sorcerer"
 		}
 	]
 }
